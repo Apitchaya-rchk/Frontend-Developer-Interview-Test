@@ -49,7 +49,7 @@ const test1 = {
 
 function Card(props) {
     let isLoading = false;
-    const [pickFaculties, setPickFaculties] = useState({});
+    const [pickFaculties, setPickFaculties] = useState([]);
 
     useEffect(() => {
         fetch("https://tcas-assets.skooldio.com/tmp/mock_tcaster_api.json")
