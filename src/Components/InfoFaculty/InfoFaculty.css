@@ -1,0 +1,60 @@
+.info {
+    display: flex;
+  }
+  
+  .field-icon {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 86px;
+    width: 80px;
+  }
+  
+  .info-detail {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  .info-detail-text {
+    flex-direction: column;
+    margin: 24px 0px 0px 20px;
+  }
+  
+  .info-detail-text-faculty {
+    height: 16px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 0.67;
+    text-align: left;
+    color: #ff5a5a;
+  }
+  
+  .info-detail-text-field {
+    height: 16px;
+    margin: 8px 0px 0px 0px;
+    /* margin: 5px 77px 24px 0px; */
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 0.8;
+    text-align: left;
+    color: #9b9b9b;
+  }
+  
+  .info-detail-text-uni {
+    height: 16px;
+    margin: 24px 0px 0px 0px;
+    /* margin: 24px 61.8px 9px 0px; */
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 0.8;
+    text-align: left;
+    color: #9b9b9b;
+  }
+  
+  .info-detail img {
+    width: 24px;
+    height: 21px;
+    margin: 22px 16px 0px 0px;
+    padding: 1px;
+    object-fit: contain;
+  }

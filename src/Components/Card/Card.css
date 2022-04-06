@@ -1,0 +1,91 @@
+.Cards {
+  width: 408px;
+  margin: 126px 16px 0 18px;
+  padding: 20px 16px 19px 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+  background-color: var(--white-0);
+}
+
+.line {
+  height: 3px;
+  border-top: solid 1.5px #d8d8d8;
+}
+
+/********************** section 1 **********************/
+
+
+
+/********************** section 2 **********************/
+
+
+/********************** section 3 **********************/
+
+.score-portion {
+  display: flex;
+  align-items: center;
+  margin: 17px 0 21px 0;
+}
+
+.score-portion-text {
+  height: 16px;
+  margin-left: 18.5px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1;
+  text-align: left;
+  color: #48b6a3;
+}
+
+.triangle-right {
+  width: 0px;
+  height: 0px;
+  border-top: 7px solid transparent;
+  border-left: 9px solid #48b6a3;
+  border-bottom: 7px solid transparent;
+}
+
+/* section 4 */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* align-content: center; */
+  color: #9b9b9b;
+}
+
+.total-like {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.person-icon {
+  width: 10px;
+  height: 10px;
+  margin: 0px 7px 0px 5px;
+  background-color: var(--warm-grey);
+}
+
+.total-like-number {
+  height: 15px;
+  line-height: 1.25rem;
+  text-align: left;
+}
+
+.total-like-text {
+  height: 15px;
+  font-style: italic;
+  line-height: 1.25rem;
+  text-align: left;
+  margin-left: 5px;
+}
+
+.share-icon {
+  width: 18px;
+  height: 23px;
+  object-fit: contain;
+  margin-top: 10px;
+}
