@@ -5,7 +5,7 @@ function DetailTcastScore(props) {
     // check round open
     let roundOpenList = [];
     for (let index = 0; index < props.roundSeatsOpen.length; index++) {
-        if (props.roundSeatsOpen[index] !== 1) {
+        if (props.roundSeatsOpen[index] !== -1) {
             roundOpenList.push ( <li className='circle-open'>{index+1}</li>);
         }
         else {
